@@ -1,0 +1,144 @@
+/* navbar css start */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+  font-family: 'Mulish', sans-serif;
+}
+.NavLink{
+  color: #000000;
+}
+.navbar{
+  background-color: #000000 !important;
+
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+}
+.brand-name{
+  color: #00bfff ;
+  font-weight: bold;
+  letter-spacing: 1;
+
+}
+.normal{
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 1;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #000000 !important;
+  font-weight: bold;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+}
+.navbar a:hover{
+  color: #000000 !important;
+}
+@media (max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+    color: #000000 !important;
+  }
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+  .normal{
+
+  }
+}
+#header h2{
+  color: #000000;
+  font-size: 24px;
+}
+#header .brand-name{
+  color: #434a4e;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wobble:hover {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes wobble {
+  0% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  15% {
+  -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+  -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+  -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+  -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+  -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes wobble {
+  0% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  15% {
+  -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+  -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+  -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+  -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+  -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
