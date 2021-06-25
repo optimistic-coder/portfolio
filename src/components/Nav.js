@@ -1,9 +1,10 @@
 import React from 'react'
+import { Navbar } from 'react-bootstrap'
 
 import {NavLink} from 'react-router-dom'
 export default function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Navbar bg="light" expand="lg">
   <a className="navbar-brand" href="#">Optimitic Coder</a>
   <button  className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span  className="navbar-toggler-icon "></span>
@@ -26,6 +27,6 @@ export default function Nav() {
     </ul>
    
   </div>
-</nav>
+</Navbar>
     )
 }

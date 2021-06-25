@@ -3,8 +3,8 @@ import Service from './pages/Service';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import "bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/css/bootstrap.min.css"
+
 import {
   BrowserRouter as Router,
   Switch,
