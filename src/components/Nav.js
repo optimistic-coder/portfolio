@@ -19,7 +19,7 @@ export default function Nav() {
         <NavLink  exact activeClassName="menu_active" className="nav-link" to="/about">About <span className="sr-only">(current)</span></NavLink>
       </li>
       <li className="nav-item active">
-        <NavLink  exact activeClassName="menu_active" className="nav-link" to="/service">Service <span className="sr-only">(current)</span></NavLink>
+        <NavLink  exact activeClassName="menu_active" className="nav-link" to="/service">Skills <span className="sr-only">(current)</span></NavLink>
       </li>
       
      
