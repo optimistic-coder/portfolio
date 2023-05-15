@@ -14,12 +14,13 @@ import {
 import Nav from './components/Nav';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Navs from './components/Nav';
 
 function App() {
   return (
     <div>
       <Router>
-        <Nav/>
+        <Navs/>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
